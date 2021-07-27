@@ -1,0 +1,218 @@
+/* 
+------------------------------------------------------
+Extra large devices (large desktops, 1200px and up) 
+----------------------------------------------------------*/
+@media (min-width: 1200px) {
+}
+
+/*
+-----------------------------------------
+ Large devices (desktops, 992px and up) 
+-------------------------------------------*/
+@media (min-width: 767.95px) and (max-width: 1199.98px) {  
+    .service-content::before {
+        width: 178px !important;
+    height: 70px !important;
+        left: -73px !important;
+    }
+    .service-content h4 {
+        font-size: 16px !important;
+    }
+    .service-content p {
+        font-size: 13px !important;
+        text-align: center !important;
+    }
+    .service-content {
+        padding: 50px 11px !important;
+    }
+}
+/*--------------------------------------------- 
+Large devices (desktops, 992px and up) 
+---------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    .navbar-expand-lg .navbar-nav .nav-item {
+        margin: 0px 10px !important;
+    }
+    .for-cut{
+        display: none !important;
+    }
+    .about-content p {
+        padding: 20px 0 !important;
+    }
+}
+
+
+/*-------------------------------------------------
+ Small devices (landscape phones, 576px and up)
+------------------------------------------------ */
+@media (min-width:0px) and (max-width: 991.98px) {  
+    .menu {
+        padding: 25px 0;
+    }
+    .line1{display: none;}
+    .line2{display: none;}
+
+}
+
+
+
+/*---------------------------------------------
+ Medium devices (tablets, 768px and up)
+------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hdr-content h4 {
+        font-size: 35px !important;
+    }
+    .hdr-content h1{
+        font-size: 55px !important;
+    }
+    .for-cut{
+        display: none !important;
+    }
+    .about-content p {
+        padding: 20px 0 !important;
+    }
+}
+
+/*---------------------------------------------
+ Small devices (landscape phones, 576px and up)
+------------------------------------------- */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    .for-cut{
+        display: none !important;
+    }
+}
+
+/*---------------------------------------------
+ Small devices (landscape phones, 576px and up)
+------------------------------------------- */
+@media (min-width: 0px) and (max-width: 767.98px) {  
+    .hdr-content h4 {
+        font-size: 25px !important;
+    }
+    .hdr-content h1{
+        font-size: 40px !important;
+    }
+    .btn-my{
+        margin-top: 60px !important;
+    } 
+    .btn-get{
+        margin-top: 60px !important;
+    }
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+        padding: 5px 10px !important;
+        margin-right: 10px !important;
+    } 
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+        padding: 5px 10px !important;
+        margin-right: 10px !important;
+    }
+    .d-custom{
+        display: none;
+    }
+    .whte-bg {
+        padding: 30px 0px !important;
+    }
+
+    .whte-bg::before {
+        top: 89% !important;
+    }
+    .reviewer ul li h5 {
+        font-size: 12px !important;
+    }
+    .reviewer ul li i{
+        font-size: 10px !important
+}
+
+/*---------------------------------------------
+ Extra small devices (portrait phones, less than 576px) 
+------------------------------------------- */
+
+@media  (min-width: 320px) and  (max-width: 575.98px) { 
+    .hdr-content h4 {
+        font-size: 20px !important;
+        padding: 20px 0 !important;
+    }
+    .hdr-content h1{
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+    .btn-my{
+        margin-top: 10px !important;
+        margin-left: 0px  !important;
+        padding: 5px 20px !important;
+    } 
+    .btn-get{
+        margin-top: 10px !important;
+        padding: 5px 20px !important;
+    }
+    .btn-my{
+        padding: 5px 20px !important;
+    } 
+    .btn-get{
+        padding: 5px 20px !important;
+    }
+    .service-content::before {
+        width: 256px !important;
+        height: 102px !important;
+        left: -34% !important;
+    }
+    .story-content h6{
+        font-size: 13px;
+    }
+    .story-content h4 {
+        font-size: 15px;
+    }
+    .story-content p{
+        font-size: 12px;
+    }
+    .story-content a {
+        padding: 7px 6px !important;
+        font-size: 14px !important;
+    }
+    .whte-bg h5 {
+        font-size: 12px !important;
+    }
+    .whte-bg i{
+        font-size: 10px !important
+    }
+    .mt-c{
+        margin-top: 40px;
+    }
+    .map1 {
+        top: 26% !important;
+        left: 9% !important;
+        width: 277px !important;
+        height: 293px !important;
+    }
+}
+
+
+/*---------------------------------------------
+ Extra small devices (portrait phones, less than 576px)
+------------------------------------------- */
+
+@media (min-width: 0px) and  (max-width: 320.98px) { 
+    .btn-my{
+        margin-top: 10px !important;
+        margin-left: 0px  !important;
+        padding: 5px 20px !important;
+    } 
+    .btn-get{
+        margin-top: 60px !important;
+        padding: 5px 20px !important;
+    }
+    .d-custom1{
+        display: none;
+    }
+    .btn-get {
+        margin-top: 30px !important;
+    }
+    .btn-my{
+        margin-top: 30px !important;
+    }
+    .cpy p {
+        font-size: 12px !important;
+    }
+}
+}
